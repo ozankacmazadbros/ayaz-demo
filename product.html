@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AYAZ</title>
+  <meta name="description" content="AYAZ Drop 02 / Kış 26.">
+  <meta property="og:title" content="AYAZ — Drop 02">
+  <meta property="og:description" content="Soğuk bir şehir için kat kat giyim.">
+  <meta property="og:image" content="img/og.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#ebeae6">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&family=Sofia+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=7">
+  <script>
+    (function (d) { if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { d.classList.add('motion'); setTimeout(function () { if (!window.gsap) d.classList.remove('motion'); }, 3500); } })(document.documentElement);
+  </script>
+</head>
+<body data-page="product">
+  <div id="hd"></div>
+
+  <main id="main">
+    <section class="pdp" data-theme="light" data-pdp></section>
+    <section class="inlook" data-theme="light" data-inlook></section>
+    <section class="store-teaser" data-theme="light" aria-labelledby="more-t" style="padding-bottom:clamp(80px,10vw,140px)">
+      <div class="sec-head"><h2 id="more-t" class="d1" data-r="lines"><span class="ln"><span>Bununla.</span></span></h2><a class="cta" href="shop.html">Mağaza <span class="arr" aria-hidden="true">↗</span></a></div>
+      <div class="grid" data-more></div>
+    </section>
+  </main>
+
+  <div class="sticky-buy" data-sticky aria-hidden="true">
+    <div><p class="d4" data-s-name></p><p class="mono muted" data-s-meta></p></div>
+    <button type="button" class="btn" data-add>Sepete ekle</button>
+  </div>
+
+  <div id="ft"></div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script defer src="js/data.js?v=7"></script>
+  <script defer src="js/core.js?v=7"></script>
+  <script defer src="js/product.js?v=7"></script>
+</body>
+</html>

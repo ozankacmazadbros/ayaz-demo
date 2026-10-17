@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mağaza — AYAZ</title>
+  <meta name="description" content="Drop 02 / Kış 26: örgüler, pileli pantolonlar, yün paltolar ve aksesuarlar.">
+  <meta property="og:title" content="Mağaza — AYAZ">
+  <meta property="og:description" content="Drop 02 / Kış 26: örgüler, pileli pantolonlar, yün paltolar ve aksesuarlar.">
+  <meta property="og:image" content="img/og.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#ebeae6">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&family=Sofia+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=7">
+  <script>
+    (function (d) { if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { d.classList.add('motion'); setTimeout(function () { if (!window.gsap) d.classList.remove('motion'); }, 3500); } })(document.documentElement);
+  </script>
+</head>
+<body data-page="shop">
+  <div id="hd"></div>
+
+  <main id="main">
+    <header class="shop-head" data-theme="light">
+      <p class="mono"><span class="br">Drop 02 / Kış 26</span></p>
+      <div class="shop-head__row">
+        <h1 class="d1 shop-title"><span class="ln"><span data-title>Mağaza</span></span></h1>
+        <p class="mono" data-count aria-live="polite"></p>
+      </div>
+      <div class="chips mono" role="toolbar" aria-label="Kategori" data-chips></div>
+    </header>
+    <section class="shop-grid" aria-label="Ürünler"><div class="grid" data-grid></div></section>
+  </main>
+
+  <div id="ft"></div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script defer src="js/data.js?v=7"></script>
+  <script defer src="js/core.js?v=7"></script>
+  <script defer src="js/shop.js?v=7"></script>
+</body>
+</html>
